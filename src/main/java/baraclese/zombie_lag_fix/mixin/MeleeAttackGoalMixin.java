@@ -31,7 +31,7 @@ public  class MeleeAttackGoalMixin
 		return this.mob.width * 2.0f * (this.mob.width * 2.0f) + entity.width;
 	}
 
-	// this is the code used in 1.9.4:
+	// Overwrite tick method with the code used in 1.9.4
 	@Overwrite
 	public void tick()
 	{
