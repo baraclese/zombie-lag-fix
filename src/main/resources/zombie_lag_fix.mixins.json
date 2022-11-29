@@ -3,7 +3,7 @@
   "minVersion": "0.8",
   "package": "baraclese.zombie_lag_fix.mixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [
+  "server": [
     "MeleeAttackGoalMixin"
   ],
   "injectors": {
